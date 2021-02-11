@@ -1,0 +1,10 @@
+@import "reset.css";
+/*component*/
+@import "components/status-bar.css";
+@import "variables.css";
+/*screens*/
+@import "screens/login.css";
+
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
