@@ -13,7 +13,20 @@
 .find-icons__icon span {
   margin-top: 18px;
 }
-.find-icons {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
-  padding: 35px 0px;
+.recommended-friends {
+  border-bottom: var(--main-border);
+  border-top: var(--main-border);
+  padding: 25px 0px;
+  margin: 25px 0px;
+}
+.recommended-friends__title {
+  font-size: 17px;
+  color: var(--main-color);
+}
+.recommended-friends span {
+  display: block;
+  text-align: center;
+  padding: 100px 0px;
+  font-size: 21px;
+  color: rgba(0, 0, 0, 0.3);
 }
