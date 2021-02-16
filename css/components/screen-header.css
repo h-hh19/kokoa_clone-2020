@@ -12,7 +12,18 @@
 }
 .screen-header__icon span {
   margin-left: 25px;
+  position: relative;
 }
 .friends-screen {
   padding: 0px var(--horizontal-space);
+}
+.screen-header__dot {
+  background-color: tomato;
+  width: 8px;
+  height: 8px;
+  display: flex;
+  border-radius: 4px;
+  position: absolute;
+  left: 21px;
+  bottom: 21px;
 }
