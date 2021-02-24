@@ -98,6 +98,7 @@
   padding: 5px 25px;
   align-items: center;
   box-sizing: border-box;
+  transition: transform 0.3s ease-in-out;
 }
 .reply .reply__column:first-child {
   width: 10%;
@@ -112,6 +113,7 @@
   padding: 9px;
   border: var(--main-border);
   border-radius: 20px;
+  transition: all 0.3s ease-in-out;
 }
 .reply__column:last-child > i,
 .reply__column:last-child button {
@@ -140,6 +142,21 @@
 .reply__column button i {
   opacity: 1;
 }
-.reply:focus-within .reply__column:first-child {
-  display: none;
+
+.reply:focus-within .reply__column:first-child,
+.reply:focus-within .fa-smile,
+.reply:focus-within button {
+  opacity: 0;
+}
+.reply input:focus {
+  width: 95vw;
+  transform: translateX(-10%) translateY(-80px);
+}
+.reply .reply__column:first-child,
+.reply .fa-smile,
+.reply button {
+  transition: opacity 0.3s ease-in-out;
+}
+.reply:focus-within {
+  transform: translateY(80px);
 }
