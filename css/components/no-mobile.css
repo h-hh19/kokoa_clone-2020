@@ -5,7 +5,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--yellow);
+  background-color: teal;
   z-index: 99;
   top: 0;
   font-size: 32px;
