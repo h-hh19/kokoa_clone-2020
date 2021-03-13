@@ -32,7 +32,7 @@
 }
 
 #splash-screen {
-  background-color: var(--yellow);
+  background-color: burlywood;
   position: absolute;
   top: 0px;
   height: 100vh;
