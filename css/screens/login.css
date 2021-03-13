@@ -33,7 +33,7 @@
   color: var(--main-color);
 }
 #login-form input[type="submit"] {
-  background-color: var(--yellow);
+  background-color: burlywood;
   cursor: pointer;
   border-radius: 5px;
   padding: 20px 0px;
