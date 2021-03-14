@@ -2,8 +2,10 @@
   justify-content: space-between;
   margin-bottom: 31px;
 }
-.user-component__advice:hover {
+.user-component__advice {
   transition: 0.3s ease-in-out;
+}
+.user-component__advice:hover {
   border-width: 3px;
   border-style: solid;
   border-style: solid;
