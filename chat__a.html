@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>settings - kokoa talk</title>
+  </head>
+  <body id="chat-screen">
+    <div class="status-bar">
+      <div class="status-bar__cloumn">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+        <!--to do: wifi icon-->
+      </div>
+      <div class="status-bar__cloumn">
+        <span>15:17</span>
+      </div>
+      <div class="status-bar__cloumn">
+        <span>100%</span>
+        <!--to do: battry icon-->
+        <i class="fas fa-battery-full"></i>
+        <!--to do: lightning icon-->
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="chats.html"> <i class="fas fa-angle-left fa-3x"></i></a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">에리히 프롬</h1>
+      </div>
+      <div class="alt-header__column">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fas fa-bars fa-lg"></i></span>
+      </div>
+    </header>
+
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">Tueesday, June 30, 2020</div>
+
+      <!--------------------------------------------------------------------->
+
+      <!-------------------------------------------------------->
+      <div class="message-row chat__left">
+        <img src="https://t1.daumcdn.net/cfile/blog/217F2E4454D9409F1F" />
+        <div class="message-row__content">
+          <span class="message__author">에리히 프롬</span>
+          <div class="message__info">
+            <span class="message-bubble"
+              >사랑을 하기 위해서는 혼자있는 연습이 필요하다.
+            </span>
+            <span class="message__time">21:17</span>
+          </div>
+        </div>
+      </div>
+      <!--------------------------------------------------------------------->
+      <div class="message-row chat__left">
+        <img src="https://t1.daumcdn.net/cfile/blog/217F2E4454D9409F1F" />
+        <div class="message-row__content">
+          <span class="message__author">에리히 프롬</span>
+          <div class="message__info">
+            <span class="message-bubble"
+              >진실된 사랑은 육체적 관계에서 탐욕이나 정복하려는, 정복 당하려는
+              소망이 없고 부드러움만 섞일 뿐이다.</span
+            >
+            <span class="message__time">21:17</span>
+          </div>
+        </div>
+      </div>
+      <!--------------------------------------------------------------------->
+      <div class="message-row chat__left">
+        <img src="https://t1.daumcdn.net/cfile/blog/217F2E4454D9409F1F" />
+        <div class="message-row__content">
+          <span class="message__author">에리히 프롬</span>
+          <div class="message__info">
+            <span class="message-bubble"
+              >사랑은 결의이자 판단이고 약속이다.</span
+            >
+            <span class="message__time">21:17</span>
+          </div>
+        </div>
+      </div>
+    </main>
+    <form class="reply">
+      <div class="reply__column"><i class="far fa-plus-square fa-lg"></i></div>
+      <div class="reply__column">
+        <input type="text" placeholder="write a message..." />
+        <i class="far fa-smile fa-lg"></i>
+        <button><i class="fas fa-arrow-up"></i></button>
+      </div>
+    </form>
+    <div id="no-mobile">
+      <span>화면을 줄여주세요!</span>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

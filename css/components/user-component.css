@@ -2,6 +2,44 @@
   justify-content: space-between;
   margin-bottom: 31px;
 }
+.user-component__advice {
+  transition: 0.3s ease-in-out;
+}
+.user-component__advice:hover {
+  border-width: 3px;
+  border-style: solid;
+  border-style: solid;
+  border-width: 3px;
+  -webkit-border-image: -webkit-linear-gradient(
+      left,
+      rgb(255, 255, 255, 0) 1%,
+      rgb(0, 0, 0) 50%,
+      rgb(255, 255, 255, 0) 100%
+    )
+    0 0 100% 0/0 0 3px 0 stretch;
+  -moz-border-image: -moz-linear-gradient(
+      left,
+      rgb(255, 255, 255, 0) 1%,
+      rgb(0, 0, 0) 50%,
+      rgb(255, 255, 255, 0) 100%
+    )
+    0 0 100% 0/0 0 3px 0 stretch;
+  -o-border-image: -o-linear-gradient(
+      left,
+      rgb(255, 255, 255, 0) 1%,
+      rgb(0, 0, 0) 50%,
+      rgb(255, 255, 255, 0) 100%
+    )
+    0 0 100% 0/0 0 3px 0 stretch;
+  border-image: linear-gradient(
+      to left,
+      rgb(255, 255, 255, 0) 1%,
+      rgb(0, 0, 0) 50%,
+      rgb(255, 255, 255, 0) 100%
+    )
+    0 0 100% 0/0 0 3px 0 stretch;
+  padding-bottom: 15px;
+}
 
 .user-component,
 .user-component__column:first-child {
